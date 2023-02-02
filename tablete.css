@@ -1,0 +1,75 @@
+
+
+  header{
+    padding:30px;
+}
+
+header label{
+    display: initial;
+}
+
+header .navbar{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 100%;
+    background: rgb(224, 173, 173);
+    border-top: 1px solid rgb(77, 66, 39);
+    display: none;
+    width: 100%;
+}
+header .navbar ul li{
+    width: 100%;
+}
+
+#menu-bar:checked ~ .navbar{
+    display: initial;
+}
+
+
+
+.form2{
+  display: flex;
+  flex-direction: column;
+   padding: 20%;
+  align-items: center;
+  background: rgb(90, 83, 75);
+}
+
+
+.form2 input , textarea{
+  padding:  20px;
+  font-size: large;
+  width: 50%;
+  margin: 15px;
+  /* outline: none; */
+  border: none;
+outline: none;
+border-radius: 10px;
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
